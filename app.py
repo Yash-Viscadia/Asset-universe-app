@@ -17,7 +17,7 @@ import pandas as pd
 import streamlit as st
 
 sys.path.insert(0, os.path.dirname(__file__))
-from pipeline.orchestrator import run_pipeline
+from orchestrator import run_pipeline
 
 # ── Logging ───────────────────────────────────────────────────────────────────
 logging.basicConfig(
