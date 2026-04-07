@@ -21,10 +21,7 @@ logger = logging.getLogger(__name__)
 
 OPENFDA_LABEL  = "https://api.fda.gov/drug/label.json"
 CT_STUDIES     = "https://clinicaltrials.gov/api/v2/studies"
-EMA_EPAR_URL   = (
-    "https://www.ema.europa.eu/sites/default/files/"
-    "Medicines_output_european_public_assessment_reports.xlsx"
-)
+EMA_EPAR_URL = "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx"
 
 TIMEOUT = 30          # seconds per request
 RETRY_DELAY = 2       # base back-off seconds
